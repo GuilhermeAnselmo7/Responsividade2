@@ -1,0 +1,35 @@
+.barraNavegacao {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+.perfil {
+    height: 40px;
+    width: 40px;
+    background-color: #858383;
+    border-radius: 100px;
+}
+.barraLateral {
+    display: flex;
+    gap: 10px;
+}
+.botaoLateral {
+    height: 15px;
+    background-color: #858383;
+    width: 70px;
+    border-radius: 5px;
+}
+@media (max-width: 1200px) {
+    .botaoLateral {
+        display: none;
+    }
+    .barraLateral {
+        background-image: url(menu.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 60px;
+        height: 60px;
+    }
+}

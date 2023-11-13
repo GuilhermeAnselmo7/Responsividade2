@@ -1,0 +1,43 @@
+.conteudo {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.secao {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.miniSecao {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.caixaGrande {
+    background-color: #d9d9d9;
+    width: 800px;
+    height: 420px;
+    border-radius: 30px;
+}
+.caixaPequena {
+    background-color: #d9d9d9;
+    width: 390px;
+    height: 200px;
+    border-radius: 20px;
+}
+@media (max-width: 837px) {
+    .caixaGrande {
+        width: 390px;
+        height: 200px;
+        border-radius: 20px;
+    }
+    .conteudo {
+        display: flex;
+        justify-content: center;
+    }
+}
